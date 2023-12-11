@@ -1,7 +1,6 @@
 (function ($) {
     $.fn.countTo = function (options) {
       options = options || {};
-  
       return $(this).each(function () {
         var settings = $.extend(
           {},
